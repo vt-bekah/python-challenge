@@ -41,11 +41,13 @@ with open(csvpath) as csvfile:
             max_dec = int(row[1])
             max_dec_date = row[0]
 
+avg_change = total_prof_loss/mo_num
+
 # print the desired results to the console
 print("Financial Analysis\n----------------------------\n")
 print(f"Total Months: {mo_num}\n")
 print(f"Total: {total_prof_loss}\n")
-print(f"Average Change: \n")
+print(f"Average Change: {avg_change}\n")
 print(f"Greatest Increase in Profits: {max_inc_date} (${max_inc})\n")
 print(f"Greatest Decrease in Profits: {max_dec_date} (${max_dec})\n")
 
@@ -64,7 +66,7 @@ file = open(resultspath, "w")
 file.write("Financial Analysis\n----------------------------\n")
 file.write(f"Total Months: {mo_num}\n")
 file.write(f"Total: {total_prof_loss}\n")
-file.write(f"Average Change: \n")
+file.write(f"Average Change: {avg_change}\n")
 file.write(f"Greatest Increase in Profits: {max_inc_date} (${max_inc})\n")
 file.write(f"Greatest Decrease in Profits: {max_dec_date} (${max_dec})\n")
 
