@@ -6,12 +6,12 @@ This repository contains challenge files for UT DAV Bootcamp Module 3 Python
    * PyBank/Resources contains budget_data.csv (The main.py script relies on the Resources folder being at the same level)
    * PyBank/analysis was created as part of the setup to contain the results file rather than the script creating the folder
      * PyBank_results.txt is the file created/overwritten by the main.py script containing the results
-   main.py
+   * main.py contains the python code that executes the instructions for PyBank
 * PyPoll folder contains all files associated with the PyPoll instructions
    * PyPoll/Resources contains election_data.csv (The main.py script relies on the Resources folder being at the same level)
    * PyPoll/analysis was created as part of the setup to contain the results file rather than the script creating the folder
      * PyPoll_results.txt is the file created/overwritten by the main.py script containing the results
-   main.py
+   * main.py contains the python code that executes the instructions for PyPoll
 
 # References
 The following references were used to identify various functions used within the script:
